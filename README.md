@@ -1,136 +1,160 @@
-![](assets/Bottom_up.svg)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Git Hut - Overview</title>
+  < style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+    }
 
-<!--   my-icons -->
-<p align="center">
-    <a href=""><img src="https://img.shields.io/badge/status-updating-brightgreen.svg"></a>
-    <a href=""><img src="https://img.shields.io/badge/Python-3.12-FF1493.svg"></a>
-    <a href=""><img src="https://img.shields.io/github/contributors/BEPb/BEPb?color=blue"></a>
-    <a href=""><img src="https://img.shields.io/github/stars/vikram-singh9/BEPb.svg?logo=github"></a>
-    <a href=""><img src="https://img.shields.io/github/forks/vikram-singh9/BEPb.svg?color=blue&logo=github"></a>
-    
-</p>
+    header {
+      background-color: #161b22;
+      padding: 20px;
+      border-bottom: 1px solid #30363d;
+    }
 
-<!--   my-header-img -->
-![](./src/header_.png)
-<a href="https://www.python.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" align="right" height="48" width="48" ></a>
+    .container {
+      width: 85%;
+      margin: auto;
+    }
 
+    .profile {
+      display: flex;
+      gap: 20px;
+      margin-top: 30px;
+    }
 
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 2px solid #30363d;
+    }
 
+    .profile-info h1 {
+      margin: 0;
+      font-size: 28px;
+    }
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=Hi,+I'm+Rajkrishna;&center=true&width=500&height=45&color=FF0000&vCenter=true&size=22" />
-</p>
+    .profile-info p {
+      margin-top: 10px;
+      color: #8b949e;
+    }
 
+    .repo-section {
+      margin-top: 40px;
+    }
 
-<h1 align="center">🌟 Fellas! </h1><br>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sanjeevi-js45&label=Profile%20views&color=0e75b6&style=flat" sanjeevi />
-</p><br>
+    .repo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
 
-<div align="center">
-  <img src="https://media.giphy.com/media/78XCFBGOlS6keY1Bil/giphy.gif?cid=790b76111rnhef6sar3stvwkgwbjolh1kt2llbb2hkefq8xh&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200" height="185"/>
-</div><br>
+    .repo-card {
+      background-color: #161b22;
+      padding: 16px;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+    }
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="30" alt="apple logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="30" alt="azure logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" height="30" alt="codeigniter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg" height="30" alt="d3js logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="30" alt="dot-net logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="30" alt="gitlab logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" height="30" alt="google logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="30" alt="googlecloud logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" height="30" alt="illustrator logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ie10/ie10-original.svg" height="30" alt="ie10 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg" height="30" alt="kaggle logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="30" alt="linkedin logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="30" alt="numpy logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="30" alt="opencv logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opera/opera-original.svg" height="30" alt="opera logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="30" alt="oracle logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="30" alt="pandas logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phoenix/phoenix-original.svg" height="30" alt="phoenix logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" height="30" alt="photoshop logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="30" alt="pytorch logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" height="30" alt="ruby logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg" height="30" alt="vagrant logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unix/unix-original.svg" height="30" alt="unix logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" height="30" alt="vim logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="30" alt="visualstudio logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="30" alt="windows8 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" height="30" alt="wordpress logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/zend/zend-original.svg" height="30" alt="zend logo"  />
-</div><br>
+    .repo-card h3 {
+      margin: 0;
+      color: #58a6ff;
+    }
 
-<div align="center">
-  <a href="mailto:rajkrishna1445@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a><br>
-  <a href="https://www.linkedin.com/in/raj-krishna-51b9142a3/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div><br>
+    .repo-card p {
+      font-size: 14px;
+      color: #8b949e;
+    }
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=krishna-js45&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="Trophies" />
-</div><br>
-<div align="center">
+    .repo-meta {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      font-size: 12px;
+    }
 
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      text-align: center;
+      color: #8b949e;
+      border-top: 1px solid #30363d;
+    }
+  </style>
+</head>
+<body>
 
-![](https://github-readme-stats.vercel.app/api?username=Krishna-js45&theme=neon&hide_border=false&include_all_commits=false&count_private=false)<br><br>
-![](https://nirzak-streak-stats.vercel.app/?user=Krishna-js45&theme=neon&hide_border=false)<br><br>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Krishna-js45&theme=neon&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<header>
+  <div class="container">
+    <h2>🐙 Git Hut</h2>
+  </div>
+</header>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-</div>
-<br/>
+<main class="container">
+  <section class="profile">
+    <img class="avatar" src="https://avatars.githubusercontent.com/u/1?v=4" alt="Avatar">
+    <div class="profile-info">
+      <h1>Linus Torvalds</h1>
+      <p>Creator of Linux and Git. Passionate about open source.</p>
+    </div>
+  </section>
 
+  <section class="repo-section">
+    <h2>Repositories</h2>
+    <div class="repo-grid" id="repoGrid"></div>
+  </section>
+</main>
 
-                                                                                                                                                                                                                                                                                                                                                                                               
-![](assets/Bottom_down.svg)
+<footer>
+  © 2026 Git Hut — Built with ❤️ using HTML, CSS & JS
+</footer>
 
+<script>
+  const repositories = [
+    {
+      name: "linux",
+      description: "Linux kernel source tree",
+      language: "C",
+      stars: 150000
+    },
+    {
+      name: "git",
+      description: "Distributed version control system",
+      language: "C",
+      stars: 45000
+    },
+    {
+      name: "subsurface",
+      description: "Dive log software",
+      language: "C++",
+      stars: 4000
+    }
+  ];
 
+  const repoGrid = document.getElementById("repoGrid");
 
+  repositories.forEach(repo => {
+    const card = document.createElement("div");
+    card.className = "repo-card";
 
+    card.innerHTML = `
+      <h3>${repo.name}</h3>
+      <p>${repo.description}</p>
+      <div class="repo-meta">
+        <span>⭐ ${repo.stars}</span>
+        <span>🧠 ${repo.language}</span>
+      </div>
+    `;
 
+    repoGrid.appendChild(card);
+  });
+</script>
 
-
+</body>
+</html>
