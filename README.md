@@ -24,7 +24,7 @@
 
 <h1 align="center">🌟 Fellas! </h1><br>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=krishna-js45&label=Profile%20views&color=0e75b6&style=flat" alt="krishna-js45" />
+  <img src="https://komarev.com/ghpvc/?username=sanjeevi-js45&label=Profile%20views&color=0e75b6&style=flat" sanjeevi />
 </p><br>
 
 <div align="center">
